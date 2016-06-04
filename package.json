@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-tbremer",
+  "version": "0.0.0",
+  "description": "personal opinionated eslint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbremer/eslint-config-tbremer.git"
+  },
+  "author": {
+    "name": "Tom Bremer",
+    "email": "tom@tbremer.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tbremer/eslint-config-tbremer/issues"
+  },
+  "homepage": "https://github.com/tbremer/eslint-config-tbremer#readme"
+}
