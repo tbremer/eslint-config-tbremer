@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tbremer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "personal opinionated eslint config",
   "main": "index.js",
   "repository": {
