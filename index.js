@@ -16,215 +16,215 @@ module.exports = {
   },
   "rules": {
     "accessor-pairs": [
-      "error",
+      2,
       {
         "getWithoutSet": true,
         "setWithoutGet": true
       }
     ],
-    "array-callback-return": "error",
+    "array-callback-return": 2,
     "curly": [
-      "error",
+      2,
       "multi-line"
     ],
-    "default-case": "error",
-    "eqeqeq": "error",
-    "no-caller": "error",
-    "no-case-declarations": "error",
-    "no-else-return": "error",
-    "no-eval": "error",
-    "no-extend-native": "error",
-    "no-extra-bind": "error",
-    "no-fallthrough": "error",
-    "no-floating-decimal": "error",
-    "no-implicit-coercion": "error",
-    "no-implied-eval": "error",
-    "no-invalid-this": "error",
-    "no-iterator": "error",
-    "no-lone-blocks": "error",
-    "no-magic-numbers": "error",
-    "no-multi-spaces": "error",
-    "no-native-reassign": "error",
-    "no-proto": "error",
-    "no-redeclare": "error",
-    "no-useless-call": "error",
-    "yoda": "error",
+    "default-case": 2,
+    "eqeqeq": 2,
+    "no-caller": 2,
+    "no-case-declarations": 2,
+    "no-else-return": 2,
+    "no-eval": 2,
+    "no-extend-native": 2,
+    "no-extra-bind": 2,
+    "no-fallthrough": 2,
+    "no-floating-decimal": 2,
+    "no-implicit-coercion": 2,
+    "no-implied-eval": 2,
+    "no-invalid-this": 2,
+    "no-iterator": 2,
+    "no-lone-blocks": 2,
+    "no-magic-numbers": 2,
+    "no-multi-spaces": 2,
+    "no-native-reassign": 2,
+    "no-proto": 2,
+    "no-redeclare": 2,
+    "no-useless-call": 2,
+    "yoda": 2,
     "array-bracket-spacing": [
-      "error",
+      2,
       "always"
     ],
     "block-spacing": [
-      "error",
+      2,
       "always"
     ],
     "brace-style": [
-      "error",
+      2,
       "1tbs",
     {
       "allowSingleLine": true
     }
     ],
-    "camelcase": "error",
-    "comma-spacing": "error",
-    "comma-style": "error",
+    "camelcase": 2,
+    "comma-spacing": 2,
+    "comma-style": 2,
     "computed-property-spacing": [
-      "error",
+      2,
       "never"
     ],
-    "eol-last": "error",
-    "func-names": "error",
+    "eol-last": 2,
+    "func-names": 2,
     "func-style": [
-      "error",
+      2,
       "declaration",
       {
         "allowArrowFunctions": true
       }
     ],
     "indent": [
-      "error",
+      2,
       2,
       {
         "SwitchCase": 1
       }
     ],
-    "key-spacing": "error",
-    "keyword-spacing": "error",
+    "key-spacing": 2,
+    "keyword-spacing": 2,
     "linebreak-style": [
-      "error",
+      2,
       "unix"
     ],
     "lines-around-comment": [
-      "error",
+      2,
       {
         "allowBlockStart": true,
         "allowBlockEnd": false
       }
     ],
     "max-depth": [
-      "error",
+      2,
       {
         "max": 4
       }
     ],
     "max-len": [
-      "error",
+      2,
       {
         "comments": 80
       }
     ],
-    "max-nested-callbacks": "error",
-    "max-params": "error",
-    "max-statements-per-line": "error",
-    "new-cap": "error",
-    "new-parens": "error",
-    "newline-after-var": "error",
-    "newline-before-return": "error",
+    "max-nested-callbacks": 2,
+    "max-params": 2,
+    "max-statements-per-line": 2,
+    "new-cap": 2,
+    "new-parens": 2,
+    "newline-after-var": 2,
+    "newline-before-return": 2,
     "newline-per-chained-call": [
-      "error",
+      2,
       {
         "ignoreChainWithDepth": 2
       }
     ],
-    "no-array-constructor": "error",
-    "no-lonely-if": "error",
-    "no-mixed-spaces-and-tabs": "error",
+    "no-array-constructor": 2,
+    "no-lonely-if": 2,
+    "no-mixed-spaces-and-tabs": 2,
     "no-multiple-empty-lines": [
-      "error",
+      2,
       {
         "max": 2
       }
     ],
-    "no-new-object": "error",
-    "no-spaced-func": "error",
-    "no-trailing-spaces": "error",
-    "no-unneeded-ternary": "error",
-    "no-whitespace-before-property": "error",
+    "no-new-object": 2,
+    "no-spaced-func": 2,
+    "no-trailing-spaces": 2,
+    "no-unneeded-ternary": 2,
+    "no-whitespace-before-property": 2,
     "object-curly-spacing": [
-      "error",
+      2,
       "always"
     ],
-    "object-property-newline": "error",
-    "one-var-declaration-per-line": "error",
+    "object-property-newline": 2,
+    "one-var-declaration-per-line": 2,
     "operator-assignment": [
-      "error",
+      2,
       "always"
     ],
     "operator-linebreak": [
-      "error",
+      2,
       "none"
     ],
     "padded-blocks": [
-      "error",
+      2,
       "never"
     ],
     "quote-props": [
-      "error",
+      2,
       "as-needed"
     ],
     "quotes": [
-      "error",
+      2,
       "single",
       {
         "avoidEscape": true,
         "allowTemplateLiterals": true
       }
     ],
-    "require-jsdoc": "error",
+    "require-jsdoc": 2,
     "semi": [
-      "error",
+      2,
       "always"
     ],
-    "no-console": "error",
+    "no-console": 2,
     "semi-spacing": [
-      "error",
+      2,
       {
         "before": false
       }
     ],
-    "space-before-blocks": "error",
+    "space-before-blocks": 2,
     "space-in-parens": [
-      "error",
+      2,
       "never"
     ],
-    "wrap-regex": "error",
+    "wrap-regex": 2,
     "arrow-body-style": [
-      "error",
+      2,
       "as-needed"
     ],
     "arrow-parens": [
-      "error",
+      2,
       "as-needed"
     ],
-    "arrow-spacing": "error",
-    "constructor-super": "error",
+    "arrow-spacing": 2,
+    "constructor-super": 2,
     "generator-star-spacing": [
-      "error",
+      2,
       "before"
     ],
-    "no-class-assign": "error",
-    "no-confusing-arrow": "error",
-    "no-const-assign": "error",
-    "no-dupe-class-members": "error",
-    "no-duplicate-imports": "error",
-    "no-new-symbol": "error",
-    "no-this-before-super": "error",
-    "no-useless-computed-key": "error",
-    "no-useless-constructor": "error",
-    "no-useless-rename": "error",
-    "no-var": "error",
+    "no-class-assign": 2,
+    "no-confusing-arrow": 2,
+    "no-const-assign": 2,
+    "no-dupe-class-members": 2,
+    "no-duplicate-imports": 2,
+    "no-new-symbol": 2,
+    "no-this-before-super": 2,
+    "no-useless-computed-key": 2,
+    "no-useless-constructor": 2,
+    "no-useless-rename": 2,
+    "no-var": 2,
     "object-shorthand": [
-      "error",
+      2,
       "always"
     ],
-    "prefer-arrow-callback": "warn",
-    "prefer-const": "error",
-    "prefer-rest-params": "error",
-    "prefer-spread": "error",
-    "prefer-template": "error",
-    "require-yield": "error",
-    "sort-imports": "warn",
+    "prefer-arrow-callback": 1,
+    "prefer-const": 2,
+    "prefer-rest-params": 2,
+    "prefer-spread": 2,
+    "prefer-template": 2,
+    "require-yield": 2,
+    "sort-imports": 1,
     "yield-star-spacing": [
-      "error",
+      2,
       {
         "before": true,
         "after": false
