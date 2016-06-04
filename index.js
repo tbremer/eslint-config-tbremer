@@ -108,6 +108,7 @@ module.exports = {
     "max-len": [
       2,
       {
+        "code": Infinity,
         "comments": 80
       }
     ],
