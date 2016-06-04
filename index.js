@@ -42,7 +42,6 @@ module.exports = {
     "no-invalid-this": 2,
     "no-iterator": 2,
     "no-lone-blocks": 2,
-    "no-magic-numbers": 2,
     "no-multi-spaces": 2,
     "no-native-reassign": 2,
     "no-proto": 2,
@@ -222,7 +221,6 @@ module.exports = {
     "prefer-spread": 2,
     "prefer-template": 2,
     "require-yield": 2,
-    "sort-imports": 1,
     "yield-star-spacing": [
       2,
       {
