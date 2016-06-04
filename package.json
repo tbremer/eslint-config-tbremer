@@ -11,6 +11,10 @@
     "name": "Tom Bremer",
     "email": "tom@tbremer.com"
   },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tbremer/eslint-config-tbremer/issues"
