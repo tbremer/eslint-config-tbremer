@@ -3,6 +3,21 @@ eslint-config-tbremer
 
 _Personal an opinionated ESLint config_
 
+***Note:*** *if you are using async/await or decorators I would recommend installing [eslint-plugin-babel](https://github.com/babel/eslint-plugin-babel), [babel-eslint](https://github.com/babel/babel-eslint), and updating your `.eslintrc` file with the following options…*
+
+```json
+{
+	"parser": "babel-eslint",
+	"plugins": [ "babel" ],
+	"extends": "tbremer",
+	"rules": {
+		"require-yield": 0,
+		"generator-star-spacing": 0,
+		"babel/generator-star-spacing": 2
+	}
+}
+```
+
 ## env
 - **es6**
 - **node**
