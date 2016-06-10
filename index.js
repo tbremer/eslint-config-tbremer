@@ -109,7 +109,8 @@ module.exports = {
       2,
       {
         "code": Infinity,
-        "comments": 80
+        "comments": 80,
+        "tabWidth": 2
       }
     ],
     "max-nested-callbacks": 2,
@@ -169,7 +170,6 @@ module.exports = {
         "allowTemplateLiterals": true
       }
     ],
-    "require-jsdoc": 2,
     "semi": [
       2,
       "always"
@@ -210,7 +210,12 @@ module.exports = {
     "no-this-before-super": 2,
     "no-useless-computed-key": 2,
     "no-useless-constructor": 2,
-    "no-useless-rename": 2,
+    "no-useless-rename": [
+      2,
+      {
+        "ignoreImport": true,
+      }
+    ],
     "no-var": 2,
     "object-shorthand": [
       2,
